@@ -19,6 +19,10 @@ func main() {
 	var i int
 	fmt.Println(i, c, python, java)
 
+	// short variable declarations
+	link := "https://www.youtube.com/@1KIINGDOM"
+
 	var apple, banana, orange = true, false, "no!"
 	fmt.Println(i, j, k, apple, banana, orange)
+	fmt.Println(link)
 }
