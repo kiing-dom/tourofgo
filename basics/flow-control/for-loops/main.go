@@ -33,4 +33,12 @@ func main() {
 	}
 
 	fmt.Println(sum2)
+
+	// for is used as while loop in go
+	sum3 := 2
+	for sum3 < 2000 {
+		sum3 += sum3
+	}
+
+	fmt.Println(sum3)
 }
