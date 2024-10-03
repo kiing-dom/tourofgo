@@ -9,8 +9,18 @@ The deferred call's arguments are evaluated immediately,
 but the function call is not executed until the surrounding function returns.
 */
 
+func stackDefer() {
+	fmt.Println("Counting...")
+
+	for i:= 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
+}
+
 func main() {
 	defer fmt.Println("world")
 
 	fmt.Println("hello")
+
+	stackDefer()
 }
