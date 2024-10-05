@@ -5,6 +5,7 @@ import "fmt"
 // A struct is a collection of fields
 // struct fields are accessed using a dot
 // struct fields can be accessed through struct pointers
+// struct literals...
 
 type Vertex struct {
 	X int
