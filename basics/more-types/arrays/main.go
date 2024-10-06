@@ -18,9 +18,9 @@ func main() {
 	a[0] = "Hello"
 	a[1] = "World"
 
-	fmt.Println(a[0], a[1])
-	fmt.Println(a)
+	fmt.Println(a[0], a[1]) // prints the contents of the array
+	fmt.Println(a) // prints the array itself enclosed in []
 
-	primes := [6]int{2, 3, 5, 7, 11, 13}
+	primes := [6]int{2, 3, 5, 7, 11, 13} // filling an array
 	fmt.Println(primes)
 }
